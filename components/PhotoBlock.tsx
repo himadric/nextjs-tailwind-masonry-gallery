@@ -24,7 +24,7 @@ const PhotoBlock = ({ image, link, height, heading }: PhotoBlockProps) => {
               objectPosition="50%,50%"
               alt="Photo"
             />
-            <div className="opacity-0 group-hover:opacity-100 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl text-gray-300 font-primary font-bold">
+            <div className="opacity-0 group-hover:opacity-100 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl text-white font-primary font-bold">
               <h1>{heading}</h1>
             </div>
           </div>

@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { photos } from "./photos";
+import { photos } from "../data/photos";
 import PhotoBlock from "../components/PhotoBlock";
 
-const buildPhotoBlocks = (): Array<JSX.Element> => {
+const buildPhotoBlocks = () => {
   let items = [];
   for (let index = 1; index < 5; index++) {
     items.push(
-      <div className="flex flex-col justify-start gap-4">
+      <div key={index} className="flex flex-col justify-start gap-4">
         {photos
           .filter((photo) => photo.column === index)
           .map((filteredPhoto) => (
