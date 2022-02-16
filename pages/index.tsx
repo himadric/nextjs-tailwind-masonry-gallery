@@ -37,7 +37,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="container mx-auto px-10 py-6">
-        <h1 className=" text-4xl">Masonry Gallery</h1>
+        <h1 className=" text-4xl">Masonry Image Gallery</h1>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 mt-5">
           {buildPhotoBlocks()}
         </div>
