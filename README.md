@@ -5,7 +5,7 @@ Run the development server:
 ```bash
 git clone https://github.com/himadric/nextjs-tailwind-masonry-gallery.git
 npm install
-
+cd nextjs-tailwind-masonry-gallery
 npm run dev
 # or
 yarn dev
